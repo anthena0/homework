@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+	int i;
+
+	printf("數值\t平方\t立方\n");
+	for (i = 0; i <= 10; i++) {
+		printf("%d\t%d\t%d\n", i, i * i, i * i * i);
+	}
+
+	return 0;
+}
